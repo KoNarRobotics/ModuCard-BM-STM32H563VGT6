@@ -10,7 +10,7 @@
 	(title_block
 		(title "ModuCard base module")
 		(date "2025-02-25")
-		(rev "1.1.0")
+		(rev "1.1.1")
 		(company "KoNaR")
 		(comment 1 "Base project author: Dominik Pluta Artem Horiunov")
 		(comment 2 "$Project Author$")
@@ -524,7 +524,7 @@
 			(at -0.353458 -3.27072 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0eaa08c1-f6c3-46b5-9205-8590bbe0b5aa")
+			(uuid "736249b7-3168-4997-8048-fc3ccd3ac437")
 			(effects
 				(font
 					(size 1 1)
@@ -532,10 +532,10 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "3.3uH"
 			(at 0 3.1 90)
 			(layer "F.Fab")
-			(uuid "cf867fa2-7344-491a-aa58-771852b917d1")
+			(uuid "408bcf53-8bd7-457b-ac66-81659e5f0753")
 			(effects
 				(font
 					(size 1 1)
@@ -547,7 +547,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dba71127-3591-4337-8984-e2f2ed949894")
+			(uuid "9016ad89-586c-4c2c-be43-dd6e2ae999d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,11 +555,11 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "DMBJ CXP0420-3R3M-AG(3.3UH)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b30cb729-2ed8-4786-8b38-e89ad75553cf")
+			(uuid "96f5cc65-8e33-4098-8670-52af4450a633")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -568,7 +568,7 @@
 			)
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
-		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/485d781c-ac91-4ad2-accf-23327a061ae6")
+		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/4a80fca0-d0d9-422d-b5b8-554f18d5883d")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
@@ -4442,7 +4442,7 @@
 			(at -1.05 -0.85 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d2d2a952-385e-45e5-9ae0-8c8410e77368")
+			(uuid "10ed6372-379d-4197-93c3-6be8d1c0d0c9")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4451,11 +4451,11 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "33k2"
 			(at 0 0.2 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3383a91-0c77-4da1-9a52-b31586d47a0c")
+			(uuid "1178e005-16e2-477d-8dfd-4a4f17a8ee41")
 			(effects
 				(font
 					(size 0.25 0.25)
@@ -4468,7 +4468,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ba2e037-bb2a-4361-aa29-d72a2c1fd217")
+			(uuid "29f26413-cd83-4560-9bcd-1d7af93e87de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4481,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "88a65a28-8fe3-418b-bf01-9998f1727b7e")
+			(uuid "6ccc46e7-0608-47b1-b8cf-be0653dab059")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4490,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/e771953b-7ff9-478b-a9bb-ee837f906476")
+		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/5687ddee-0b64-42aa-a88e-00975897e8cc")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(solder_mask_margin 0.038)
@@ -4937,7 +4937,7 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "0646f873-ac3b-4750-aa92-0a0f18da0267")
+			(uuid "282aa502-984a-4f1f-a145-8e024cdf6876")
 			(effects
 				(font
 					(size 1 1)
@@ -4949,7 +4949,7 @@
 			(at 0 -4 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "f7f64fdb-935d-4071-acfc-b74fb9b10c1d")
+			(uuid "936921fb-abc9-4384-a798-b76a02b9274d")
 			(effects
 				(font
 					(size 1 1)
@@ -4962,7 +4962,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c52eddc-6226-4c0b-9595-1aa182fefbe0")
+			(uuid "8a541477-e9e9-4334-bac8-8391eded04f9")
 			(effects
 				(font
 					(size 1 1)
@@ -4975,7 +4975,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31f2e2ac-70aa-4d58-9023-9cb61fc100f9")
+			(uuid "006665ea-5b1b-47a3-8c87-193a7e051a49")
 			(effects
 				(font
 					(size 1 1)
@@ -8806,6 +8806,7 @@
 		(property "Reference" "U801"
 			(at -0.041 -1.8104 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "dba05996-86ce-4f9e-86da-48543d380cff")
 			(effects
 				(font
@@ -9134,7 +9135,7 @@
 			(net 61 "/USB-hub/USBIN1.D+")
 			(pinfunction "D+")
 			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0.0254)
 			(uuid "0a05080b-bf48-4087-a7b9-42ee5db52205")
 		)
 		(pad "2" smd rect
@@ -9144,7 +9145,7 @@
 			(net 65 "/USB-hub/USBIN1.D-")
 			(pinfunction "D-")
 			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0.0254)
 			(uuid "62aeea19-bd43-4a6f-b691-f27382918bdd")
 		)
 		(pad "3" smd rect
@@ -9154,7 +9155,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0.0254)
 			(uuid "0de45edd-2887-4ea1-b915-e8a25e3299cc")
 		)
 		(pad "4" smd rect
@@ -9164,7 +9165,7 @@
 			(net 45 "/Backplane/BACKPLANE.D-")
 			(pinfunction "HSD1-")
 			(pintype "input")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0.0254)
 			(uuid "3469f479-daa4-4bab-ab36-eb9e36f86d04")
 		)
 		(pad "5" smd rect
@@ -9174,7 +9175,7 @@
 			(net 44 "/Backplane/BACKPLANE.D+")
 			(pinfunction "HSD1+")
 			(pintype "input")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0.0254)
 			(uuid "e1090068-5fa6-47a7-96e3-8b96bc66fdae")
 		)
 		(pad "6" smd rect
@@ -9184,7 +9185,7 @@
 			(net 37 "/USB/USB2S.D-")
 			(pinfunction "HSD2-")
 			(pintype "input")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0.0254)
 			(uuid "960b204d-f182-41d2-8a50-c36f0a7d4574")
 		)
 		(pad "7" smd rect
@@ -9194,7 +9195,7 @@
 			(net 40 "/USB/USB2S.D+")
 			(pinfunction "HSD2+")
 			(pintype "input")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0.0254)
 			(uuid "e0073bc2-0b17-4fcf-b0b2-91578680802c")
 		)
 		(pad "8" smd rect
@@ -9204,7 +9205,7 @@
 			(net 156 "Net-(U801-~{OE})")
 			(pinfunction "~{OE}")
 			(pintype "input")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0.0254)
 			(uuid "87299ffc-ab6a-4205-8e02-c816825d2346")
 		)
 		(pad "9" smd rect
@@ -9214,7 +9215,7 @@
 			(net 1 "+3V3")
 			(pinfunction "VCC")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0.0254)
 			(uuid "d61f311f-4265-4a3d-8901-d81d949dd68c")
 		)
 		(pad "10" smd rect
@@ -9224,7 +9225,7 @@
 			(net 155 "Net-(U801-SEL)")
 			(pinfunction "SEL")
 			(pintype "input")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0.0254)
 			(uuid "69f637e8-3abf-4340-a790-f6a4fbb14e40")
 		)
 		(embedded_fonts no)
@@ -18713,7 +18714,7 @@
 			(at -0.11 -3.68 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9a81fc3c-e3fa-43b5-a600-83d1d3cf1e19")
+			(uuid "f80f7629-a0be-4b55-8309-b24e86c51a46")
 			(effects
 				(font
 					(size 1 1)
@@ -18721,10 +18722,10 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "8 MHz"
 			(at 4.920377 -3.467295 0)
 			(layer "F.Fab")
-			(uuid "d9e95f5a-89f7-413b-a5ce-79ec9dc75b61")
+			(uuid "98d5c264-30de-43e1-9fd0-838598df1462")
 			(effects
 				(font
 					(size 1 1)
@@ -18736,7 +18737,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eccebf1a-c521-4324-a39b-35b83c7470c5")
+			(uuid "30b1a3a8-91f8-4696-86ad-0f28180b6cc2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18744,11 +18745,11 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "8MHz 20pF ±10ppm SMD3225 Crystals ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c41a6514-8cfe-4e04-b73b-51f66380f47a")
+			(uuid "4a2d990d-e2a8-432a-a08d-c9f807a81008")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24174,7 +24175,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3bf030c0-5ea0-45a3-8482-ffe34da1af57")
+			(uuid "a076888b-b77a-4809-b11f-1decb083cc3b")
 			(effects
 				(font
 					(size 1 1)
@@ -24186,7 +24187,7 @@
 			(at 0 5 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "cbc30ff0-8bf3-4767-a7b3-e16e6b7a1abe")
+			(uuid "ebbbd8bc-6e46-4ae2-ad48-774a61beb1f7")
 			(effects
 				(font
 					(size 1 1)
@@ -24199,7 +24200,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d951fbe-9109-412a-b053-4de15838cce7")
+			(uuid "1b40e830-5bf4-4fc0-926c-2731e0379059")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24212,7 +24213,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4035791b-21d2-4c88-a963-6c14558a6683")
+			(uuid "99af3e7f-448f-4eb7-95b8-987a10c49db2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30807,7 +30808,7 @@
 			(at -1.05 -0.85 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "332daef0-9e64-408f-bd9b-08a178f23a45")
+			(uuid "c9d659ad-0aab-47ae-af7f-ac94cbf079f9")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -30816,11 +30817,11 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "54k9"
 			(at 0 0.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "baadbe19-f69a-498b-a1f8-df11d1547da7")
+			(uuid "1c36c222-c726-4f33-932e-6452e5446848")
 			(effects
 				(font
 					(size 0.25 0.25)
@@ -30833,7 +30834,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38982993-b40d-4c18-a87f-e54a3a955796")
+			(uuid "8eea8320-4acf-4fbb-8df7-dca9031a7d0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30846,7 +30847,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "693d43ce-ac94-4ed4-b877-71324e6ce7d0")
+			(uuid "04bd493d-8c09-4e9c-b809-8e73ab5bd635")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30855,7 +30856,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/96ebcc4f-4b8e-469c-8b05-b6fef23d4be4")
+		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/24e8957e-81cd-4970-b36f-92cb7a91b9d6")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(solder_mask_margin 0.038)
@@ -30950,7 +30951,7 @@
 		(property "Reference" "J200"
 			(at 84.99 1.2 0)
 			(layer "F.SilkS")
-			(uuid "fcebd80e-7332-4fe8-aaae-ac18c82afe5c")
+			(uuid "d27ce549-b0fc-4f51-a904-5d6028f9ad59")
 			(effects
 				(font
 					(size 1 1)
@@ -30961,7 +30962,7 @@
 		(property "Value" "09031967921"
 			(at 39.37 7.62 0)
 			(layer "F.Fab")
-			(uuid "aa126874-c5af-44fa-a738-0a1b328e0b77")
+			(uuid "dc489968-eeb8-4a84-a36a-da5b8fc2ae8e")
 			(effects
 				(font
 					(size 1 1)
@@ -30974,7 +30975,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "36102b3f-bb65-4ec9-a827-3974845a79a2")
+			(uuid "18d5e27c-31f8-437c-94dd-5bc312e6c32c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30987,7 +30988,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c411846-f874-4c09-bafc-438d6fbdf548")
+			(uuid "b79f7ed0-2db0-484d-a038-7016b6161591")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36979,7 +36980,7 @@
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "435c3ce7-8163-4e68-9200-a1ff4c76691f")
+			(uuid "4a0d4a04-e0e7-4aed-ba5a-8d4a4d02fc34")
 			(effects
 				(font
 					(size 1 1)
@@ -36987,10 +36988,10 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "1.5A"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "54facd42-3836-436b-8164-42e328cf160b")
+			(uuid "cf7bc91a-9d65-4080-97b2-956101428ee9")
 			(effects
 				(font
 					(size 1 1)
@@ -36998,12 +36999,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2202211730_TLC-Electronic-F06F1-5_C2924957.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6a723fb-8ea7-42b3-b13e-2929b5d8838d")
+			(uuid "d7d9287c-6a9b-4740-924b-995431f1d27d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37011,12 +37012,12 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "0603 Disposable fuses ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b53e2d9-96a2-4c9f-8432-b3acb682e786")
+			(uuid "fb5c9de3-5e84-4622-9ef9-20b176f25bb6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37024,8 +37025,138 @@
 				)
 			)
 		)
-		(property ki_fp_filters "*Fuse*")
-		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/381fd40c-de4d-412f-a589-5d726bcb697e")
+		(property "LCSC" "C2924957"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d639d32-870a-4b48-b51a-a1db9780765d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Stock" "450"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b10d9bd3-d3e1-4955-abb7-8d96fddf4a31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.048USD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22412b2a-d661-4fb3-980a-6d57bc0638b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ea18054-3233-465f-ba7f-773155373202")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78c48f32-d5ec-4746-8652-1f01bfd426df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9939ebf7-6294-4f99-a237-bbdeafd293b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfa079bd-c12b-43be-b4bf-1b704ccde5b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Category" "TVS/Fuse/Board Level Protection,Fuses"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39875f23-460e-47f8-abad-c1d8d838d13a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TLC Electronic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6f2b271-56a7-4b61-b83d-77ec9b6596e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "F06F1.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "651ae3ae-65dc-4877-a61e-5c7e4b82229c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "F_*")
+		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/3ad34fb8-a3b6-43f4-a8cc-c40cff241cb6")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(solder_mask_margin 0.038)
@@ -37981,7 +38112,7 @@
 			(at 0 -2.45 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "544e3386-5037-46f1-9760-49b03014858c")
+			(uuid "080acb96-38e5-4c9f-84cb-eadc3b09285d")
 			(effects
 				(font
 					(size 1 1)
@@ -37992,7 +38123,7 @@
 		(property "Value" "TJA1044GTK_3Z"
 			(at 0 2.45 90)
 			(layer "F.Fab")
-			(uuid "50e87bb5-87a5-4541-a181-f5ad02a92f74")
+			(uuid "d1a7dead-0c7d-4b22-9341-99d6e08cdda7")
 			(effects
 				(font
 					(size 1 1)
@@ -38004,7 +38135,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04c63d16-ba81-403f-b743-18a3a417d691")
+			(uuid "6dd8939a-4012-41f8-8a7b-d24feaa1f0d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38016,7 +38147,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c36a2fe-c2b5-4542-9856-e8a90170fedb")
+			(uuid "25b82248-6851-41d4-bb0d-ad0b3924aaa9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41302,7 +41433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.2kΩ"
+		(property "Value" "1.5kΩ"
 			(at 0 0.199999 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -41314,7 +41445,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1201TCE_C25862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41327,7 +41458,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1.2kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41340,7 +41471,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25862"
+		(property "LCSC" "C25867"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41353,7 +41484,7 @@
 				)
 			)
 		)
-		(property "Stock" "191144"
+		(property "Stock" "853285"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41418,7 +41549,7 @@
 				)
 			)
 		)
-		(property "Class" "Preferred Component"
+		(property "Class" "Basic Component"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41457,7 +41588,7 @@
 				)
 			)
 		)
-		(property "Part" "0402WGF1201TCE"
+		(property "Part" "0402WGF1501TCE"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41470,7 +41601,7 @@
 				)
 			)
 		)
-		(property "Resistance" "1.2kΩ"
+		(property "Resistance" "1.5kΩ"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41562,7 +41693,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/ed5910e5-42de-4923-b023-9e23a66937d0/0f55e7db-e550-4cbc-8f0f-366008632525")
+		(path "/ed5910e5-42de-4923-b023-9e23a66937d0/0f0a3369-0b67-4833-89dd-d5dab1edd59b")
 		(sheetname "/ST-LINK/")
 		(sheetfile "st-link.kicad_sch")
 		(solder_mask_margin 0.038)
@@ -42859,7 +42990,7 @@
 			(at 0 -2.45 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4bdbda91-0808-4b93-8a3a-6dd5d77e6da1")
+			(uuid "15fb7947-a956-44ee-84fe-b871f1bec2ce")
 			(effects
 				(font
 					(size 1 1)
@@ -42867,10 +42998,10 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "12Mhz"
 			(at 0 2.45 0)
 			(layer "F.Fab")
-			(uuid "6d3febe4-0e24-4b20-ae93-d2ba75cdbd14")
+			(uuid "6ab6754a-5b70-4d8d-892b-be7add31b0ce")
 			(effects
 				(font
 					(size 1 1)
@@ -42883,7 +43014,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f6ed311-70c0-4dfb-a828-57c9935614f7")
+			(uuid "d73a953b-f983-495a-8e9f-69127b823bd9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42891,12 +43022,12 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ba10332-3d11-488a-a1ee-340ce7605dd5")
+			(uuid "6909e36c-e0fe-4883-a75e-fb018bc0c493")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42905,7 +43036,7 @@
 			)
 		)
 		(property ki_fp_filters "Crystal*")
-		(path "/c4e62f69-aed8-45c4-bc74-414bd9b2dcad/f35f97ee-e3ff-481f-a090-1bc87f330f21")
+		(path "/c4e62f69-aed8-45c4-bc74-414bd9b2dcad/97be99d4-ab41-4feb-9d4f-6e0f88acc649")
 		(sheetname "/USB-hub/")
 		(sheetfile "USB-hub.kicad_sch")
 		(attr smd)
@@ -43089,7 +43220,7 @@
 			(at 0 -2.45 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c4f249a0-4555-4879-a905-5dd61b2fdd47")
+			(uuid "87facc17-2cea-40cd-88c0-9c8d8e61a3dc")
 			(effects
 				(font
 					(size 1 1)
@@ -43100,7 +43231,7 @@
 		(property "Value" "TJA1044GTK_3Z"
 			(at 0 2.45 90)
 			(layer "F.Fab")
-			(uuid "7acf1f1a-3f6f-45fc-9625-11382b48058d")
+			(uuid "13e83bcf-362f-431e-abd7-50d3525179f2")
 			(effects
 				(font
 					(size 1 1)
@@ -43112,7 +43243,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08a51c21-02ad-4eb9-93fa-ea7cbbe7caaf")
+			(uuid "af90cd5b-717f-4519-a752-e5d3a56b70fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43124,7 +43255,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "700eaf07-d084-43b3-8ef8-314cf51b9ffa")
+			(uuid "d38662fd-d351-4c6d-a654-12f5cfa2a0b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45022,7 +45153,7 @@
 			(at -3.45 0.003492 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3653713e-d297-4544-9faa-95eaed021bed")
+			(uuid "1fc4b1f9-9464-4243-b88d-e88848aefb6d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -45030,10 +45161,10 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "3.3uH"
 			(at 1.692256 6.083788 0)
 			(layer "F.Fab")
-			(uuid "6ec6b778-84a8-4f62-a3f8-01adfa8f237f")
+			(uuid "2da18a85-f38e-465d-8465-ab2047222aec")
 			(effects
 				(font
 					(size 1 1)
@@ -45045,7 +45176,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e33a96d-89d8-4c2d-9373-9471ad3bebae")
+			(uuid "358f2fd7-85a4-4c23-ab1c-e2a7453f2e4e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45053,11 +45184,11 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "DMBJ CXP0420-3R3M-AG(3.3UH)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8398c547-849a-48c9-b4f0-fb3b227c07a2")
+			(uuid "c9f51817-bd7b-4a6f-8e32-785665b81fbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45066,7 +45197,7 @@
 			)
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
-		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/b4e8a973-3d1b-439d-91ee-a73dcc327bab")
+		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/f808acfc-8251-4675-a1ca-383a7f84b30e")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
@@ -45629,7 +45760,7 @@
 			(at 0 -2.83 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5521d946-0405-4b5e-a922-9a979ab2ff5c")
+			(uuid "c31651fd-e3ff-48f0-9585-9ca703e1a3e9")
 			(effects
 				(font
 					(size 1 1)
@@ -45640,7 +45771,7 @@
 		(property "Value" "CH334P"
 			(at 0 2.83 90)
 			(layer "F.Fab")
-			(uuid "edcd424f-da05-4ad8-8ff4-c88ba8a66786")
+			(uuid "baa1483d-a5f5-44c2-85ee-13a72e30e5cf")
 			(effects
 				(font
 					(size 1 1)
@@ -45653,7 +45784,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e7da9d2-b284-4a20-852d-c5a74ec53659")
+			(uuid "a3c0f5bb-de62-45c0-9b84-111132647ac4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45666,7 +45797,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ffd556c-47da-45d4-b7b0-02a6a52f3c50")
+			(uuid "2f80a5d5-4a78-4c75-8883-db0cd5ed7d27")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59650,14 +59781,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "0a7f270d-83db-4e45-878a-7b2534a7b3b6")
-	)
-	(segment
-		(start 120.888001 109.375)
-		(end 120.888 109.375001)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "0add0c0c-86cb-4f0b-a0c5-3a7abdd9845e")
 	)
 	(segment
 		(start 101.705 121.82)

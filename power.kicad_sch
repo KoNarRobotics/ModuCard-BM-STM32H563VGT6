@@ -7,7 +7,7 @@
 	(title_block
 		(title "ModuCard BM STM32H562VGT6")
 		(date "2025-04-18")
-		(rev "1.1.0")
+		(rev "1.1.1")
 		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
 		(comment 2 "Project author: <author>")
@@ -110,142 +110,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2816,6 +2680,213 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Variable-Resistors:Fuse,1.5A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 1.778 0.834 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1.5A"
+				(at 1.778 -1.2122 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:F_0603"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2202211730_TLC-Electronic-F06F1-5_C2924957.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0603 Disposable fuses ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2924957"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "450"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.048USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "TVS/Fuse/Board Level Protection,Fuses"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TLC Electronic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "F06F1.5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "F_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse,1.5A_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse,1.5A_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -5768,6 +5839,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 146.05 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24e8957e-81cd-4970-b36f-92cb7a91b9d6")
+		(property "Reference" "R300"
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54k9"
+			(at 147.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1c45e53-95c7-4427-b917-69b28bb68f13")
+		)
+		(pin "1"
+			(uuid "bbb734db-abd6-4865-95f7-11433ff3cf40")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
+					(reference "R300")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 80.01 0)
 		(unit 1)
@@ -6028,24 +6168,15 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
+		(lib_id "PCM_JLCPCB-Variable-Resistors:Fuse,1.5A")
 		(at 41.91 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "381fd40c-de4d-412f-a589-5d726bcb697e")
+		(uuid "3ad34fb8-a3b6-43f4-a8cc-c40cff241cb6")
 		(property "Reference" "F300"
-			(at 41.91 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
 			(at 41.91 55.88 90)
 			(effects
 				(font
@@ -6053,7 +6184,15 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
+		(property "Value" "1.5A"
+			(at 41.91 57.785 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:F_0603"
 			(at 41.91 61.468 90)
 			(effects
 				(font
@@ -6062,7 +6201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2202211730_TLC-Electronic-F06F1-5_C2924957.pdf"
 			(at 41.91 59.69 0)
 			(effects
 				(font
@@ -6071,7 +6210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "0603 Disposable fuses ROHS"
 			(at 41.91 59.69 0)
 			(effects
 				(font
@@ -6080,14 +6219,104 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4d04d68b-685a-4550-ad18-f670146af676")
+		(property "LCSC" "C2924957"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "450"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.048USD"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "TVS/Fuse/Board Level Protection,Fuses"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TLC Electronic"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "F06F1.5"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "8d215c43-9dcd-4957-8f1f-070931123c17")
+			(uuid "f6fb580a-794e-4b76-8605-a8505fea24eb")
+		)
+		(pin "1"
+			(uuid "ff3d41c0-d6ac-4f2a-851e-f06ed88c386a")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
 					(reference "F300")
 					(unit 1)
@@ -6622,7 +6851,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "485d781c-ac91-4ad2-accf-23327a061ae6")
+		(uuid "4a80fca0-d0d9-422d-b5b8-554f18d5883d")
 		(property "Reference" "L301"
 			(at 124.46 107.95 90)
 			(effects
@@ -6631,7 +6860,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "3.3uH"
 			(at 124.46 110.49 90)
 			(effects
 				(font
@@ -6657,7 +6886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "DMBJ CXP0420-3R3M-AG(3.3UH)"
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -6667,10 +6896,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a15d551-ab4b-46f6-8bf9-2af68483e5ac")
+			(uuid "02c26a2f-263b-46c3-8abf-ef0fc44126aa")
 		)
 		(pin "2"
-			(uuid "7f2957ba-2c6f-48e0-96f6-2eb0695a312b")
+			(uuid "1025153a-b502-4ab9-8dd6-7cd6a9050656")
 		)
 		(instances
 			(project "base-module"
@@ -6741,6 +6970,75 @@
 			(project ""
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
 					(reference "#FLG301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 130.81 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5687ddee-0b64-42aa-a88e-00975897e8cc")
+		(property "Reference" "R306"
+			(at 132.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k2"
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00d4c656-80a6-4871-89e3-3ccf24701ceb")
+		)
+		(pin "1"
+			(uuid "214bcc76-a962-434f-ae9c-66f18129f795")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -8798,75 +9096,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 146.05 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96ebcc4f-4b8e-469c-8b05-b6fef23d4be4")
-		(property "Reference" "R300"
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 147.32 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "05275db2-5817-464d-ad34-7fdbe5139cd9")
-		)
-		(pin "1"
-			(uuid "4407197d-b046-48ad-9f5c-9594d4b61ed1")
-		)
-		(instances
-			(project "base-module"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
-					(reference "R300")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 74.93 80.01 0)
 		(unit 1)
@@ -9347,74 +9576,6 @@
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
 					(reference "C301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 139.7 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4e8a973-3d1b-439d-91ee-a73dcc327bab")
-		(property "Reference" "L300"
-			(at 139.7 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 139.7 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FXL0420"
-			(at 139.7 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 139.7 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a57db500-5c27-4b1c-aa36-477fe2815324")
-		)
-		(pin "2"
-			(uuid "00c78e9c-e3fc-4e63-bb20-fd8a18bee665")
-		)
-		(instances
-			(project "base-module"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
-					(reference "L300")
 					(unit 1)
 				)
 			)
@@ -10945,75 +11106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 130.81 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e771953b-7ff9-478b-a9bb-ee837f906476")
-		(property "Reference" "R306"
-			(at 132.08 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 132.08 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 130.81 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 130.81 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a0e06c3-3c1a-4d1b-879c-1b61676962aa")
-		)
-		(pin "1"
-			(uuid "a73dfd05-c704-452e-8353-e67f7a0f3353")
-		)
-		(instances
-			(project "base-module"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
-					(reference "R306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 54.61 80.01 0)
 		(unit 1)
@@ -11428,6 +11520,74 @@
 			(project ""
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
 					(reference "D402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 139.7 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f808acfc-8251-4675-a1ca-383a7f84b30e")
+		(property "Reference" "L300"
+			(at 139.7 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 139.7 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FXL0420"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DMBJ CXP0420-3R3M-AG(3.3UH)"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87368adc-e6e7-45ee-9ede-bcf06ed0a0d5")
+		)
+		(pin "2"
+			(uuid "85ef235a-b3ef-4628-9b17-ff03eb518c15")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
+					(reference "L300")
 					(unit 1)
 				)
 			)

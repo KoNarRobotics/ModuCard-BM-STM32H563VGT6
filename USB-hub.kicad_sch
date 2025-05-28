@@ -7,7 +7,7 @@
 	(title_block
 		(title "ModuCard BM STM32H562VGT6")
 		(date "2025-04-18")
-		(rev "1.1.0")
+		(rev "1.1.1")
 		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
 		(comment 2 "Project author: <author>")
@@ -4698,6 +4698,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 177.8 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97be99d4-ab41-4feb-9d4f-6e0f88acc649")
+		(property "Reference" "Y900"
+			(at 178.054 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12Mhz"
+			(at 179.07 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba2fa09a-00ae-4c74-9df1-584b981d1adc")
+		)
+		(pin "2"
+			(uuid "bed4871f-15f1-4dbd-9b57-e35610da861c")
+		)
+		(pin "3"
+			(uuid "74ab232c-26f7-43a7-889b-645be8b47a44")
+		)
+		(pin "4"
+			(uuid "2019a48f-fcf9-474b-bce7-4a0d13d1ebc0")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/c4e62f69-aed8-45c4-bc74-414bd9b2dcad"
+					(reference "Y900")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 101.6 0)
 		(unit 1)
@@ -5528,81 +5603,6 @@
 			(project ""
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/c4e62f69-aed8-45c4-bc74-414bd9b2dcad"
 					(reference "R308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND24")
-		(at 177.8 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f35f97ee-e3ff-481f-a090-1bc87f330f21")
-		(property "Reference" "Y900"
-			(at 178.054 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Crystal_GND24"
-			(at 179.07 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 177.8 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 177.8 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb87ae18-0c73-40c0-b1aa-7f3165c4082a")
-		)
-		(pin "2"
-			(uuid "f4467854-9967-492e-b5e5-1799dbbdd82b")
-		)
-		(pin "3"
-			(uuid "8c3739d3-298e-41c9-b3d9-90a12f43591e")
-		)
-		(pin "4"
-			(uuid "bb4e03ca-7c24-4266-b74b-846dc24f27b9")
-		)
-		(instances
-			(project "base-module"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/c4e62f69-aed8-45c4-bc74-414bd9b2dcad"
-					(reference "Y900")
 					(unit 1)
 				)
 			)
