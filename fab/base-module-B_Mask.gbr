@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2-9.0.2-0~ubuntu24.04.1*%
-%TF.CreationDate,2025-06-19T12:17:55+00:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.4-9.0.4-0~ubuntu24.04.1*%
+%TF.CreationDate,2025-09-30T20:52:51+00:00*%
 %TF.ProjectId,base-module,62617365-2d6d-46f6-9475-6c652e6b6963,1.1.1*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.2-9.0.2-0~ubuntu24.04.1) date 2025-06-19 12:17:55*
+G04 Created by KiCad (PCBNEW 9.0.4-9.0.4-0~ubuntu24.04.1) date 2025-09-30 20:52:51*
 %MOMM*%
 %LPD*%
 G01*
@@ -28,6 +28,14 @@ G04 Aperture macros list*
 20,1,$1+$1,$4,$5,$6,$7,0*
 20,1,$1+$1,$6,$7,$8,$9,0*
 20,1,$1+$1,$8,$9,$2,$3,0*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
 G04 Aperture macros list end*
 %ADD10C,1.600000*%
 %ADD11C,1.300000*%
@@ -38,7 +46,8 @@ G04 Aperture macros list end*
 %ADD16C,2.850000*%
 %ADD17RoundRect,0.249999X0.525001X0.525001X-0.525001X0.525001X-0.525001X-0.525001X0.525001X-0.525001X0*%
 %ADD18C,1.550000*%
-%ADD19C,1.000000*%
+%ADD19RotRect,1.000000X1.000000X315.000000*%
+%ADD20C,1.000000*%
 G04 APERTURE END LIST*
 D10*
 %TO.C,LED300*%
@@ -181,19 +190,13 @@ X111913600Y-58325000D03*
 X114453600Y-58325000D03*
 %TD*%
 D19*
-%TO.C,TP704*%
-X127100000Y-123175000D03*
-%TD*%
-%TO.C,TP706*%
-X131900000Y-123175000D03*
-%TD*%
-%TO.C,TP703*%
-X129500000Y-120775000D03*
-%TD*%
-%TO.C,TP702*%
-X127100000Y-120775000D03*
-%TD*%
-%TO.C,TP705*%
-X129500000Y-123175000D03*
+%TO.C,J3*%
+X125295923Y-124154077D03*
+D20*
+X126193949Y-123256051D03*
+X127091974Y-122358026D03*
+X127990000Y-121460000D03*
+X128888025Y-120561975D03*
+X129786051Y-119663949D03*
 %TD*%
 M02*
