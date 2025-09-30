@@ -80,6 +80,16 @@
 	)
 	(bus
 		(pts
+			(xy 148.59 96.52) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623dd9c7-6188-4a32-ba81-647ecb03e5f3")
+	)
+	(bus
+		(pts
 			(xy 148.59 137.16) (xy 161.29 137.16)
 		)
 		(stroke
@@ -478,6 +488,16 @@
 				(justify left)
 			)
 		)
+		(pin "MCU_UART{UART}" bidirectional
+			(at 161.29 96.52 180)
+			(uuid "9879d331-90d8-4bca-b213-f5e3c3277db8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
@@ -612,7 +632,7 @@
 	)
 	(sheet
 		(at 123.19 86.36)
-		(size 25.4 10.16)
+		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -636,7 +656,7 @@
 			)
 		)
 		(property "Sheetfile" "st-link.kicad_sch"
-			(at 123.19 97.1046 0)
+			(at 123.19 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -657,6 +677,16 @@
 		(pin "SWD{SWD}" output
 			(at 148.59 88.9 0)
 			(uuid "b44b70df-07dc-4cd8-a434-5c68d0d5ae9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_UART{UART}" bidirectional
+			(at 148.59 96.52 0)
+			(uuid "ea2dd972-60d1-4508-830c-e9def8d99c21")
 			(effects
 				(font
 					(size 1.27 1.27)

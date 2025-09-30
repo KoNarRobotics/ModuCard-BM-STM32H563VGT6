@@ -60,14 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "silk_overlap|127100000|120075000|2f947062-e8dd-449d-9510-a6bf6937e9e3|ef0d86bf-ab8f-413f-b855-dc344f7c63ac",
-          ""
-        ],
-        [
-          "silk_overlap|127100000|122475000|6d3002cd-a04f-4bcc-b676-7b598d47dc0e|c68b9cd4-38a3-4e19-915f-5f65b4d64217",
-          ""
-        ],
-        [
           "silk_overlap|128750000|106025000|8de0b3ea-610d-4eba-8cdc-f1e6eec2ea71|90ab8275-5d0e-4fef-a3dd-e653ca1846ea",
           ""
         ],
@@ -85,14 +77,6 @@
         ],
         [
           "silk_overlap|131510000|109365000|24c3b445-8adb-46b8-bfef-4ee2e18231fd|52744f1b-70b1-4ed2-a325-e43ce6ea0212",
-          ""
-        ],
-        [
-          "silk_overlap|131900000|122475000|2a360141-dffd-4c1e-8dc3-07e74d40d595|c0aa16fb-5a6f-4f2e-8571-4a87ce2c75da",
-          ""
-        ],
-        [
-          "silk_overlap|133950000|111725000|65915923-499b-425c-bd81-9f28822ebe0a|dda04a19-c587-4f5c-9900-4d71ee62f9e9",
           ""
         ]
       ],
@@ -518,6 +502,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
